@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/holepunchto/wasi-sysroot#readme",
   "optionalDependencies": {
-    "wasi-sysroot-wasm32-wasip1": "0.0.0"
+    "wasi-sysroot-wasm32-wasip1": "0.1.1"
   },
   "devDependencies": {
     "cmake-fetch": "^1.4.9",
