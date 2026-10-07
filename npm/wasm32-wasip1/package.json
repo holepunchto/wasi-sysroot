@@ -1,0 +1,34 @@
+{
+  "name": "wasi-sysroot-wasm32-wasip1",
+  "version": "0.0.0",
+  "description": "The WASI sysroot for wasm32-wasip1",
+  "exports": {
+    ".": "./index.js",
+    "./package": "./package.json"
+  },
+  "files": [
+    "NOTICE",
+    "index.js",
+    "include",
+    "lib",
+    "share"
+  ],
+  "assets": [
+    "include",
+    "lib",
+    "share"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/wasi-sysroot.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/wasi-sysroot/issues"
+  },
+  "homepage": "https://github.com/holepunchto/wasi-sysroot#readme",
+  "dependencies": {
+    "require-asset": "^1.2.3"
+  }
+}
