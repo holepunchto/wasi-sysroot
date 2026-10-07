@@ -1,6 +1,6 @@
 {
   "name": "wasi-sysroot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Prebuilt WASI sysroots for the llvm-runtime compiler",
   "exports": {
     ".": "./index.js",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/holepunchto/wasi-sysroot#readme",
   "optionalDependencies": {
-    "wasi-sysroot-wasm32-wasip1": "0.0.0"
+    "wasi-sysroot-wasm32-wasip1": "0.1.1"
   },
   "devDependencies": {
     "cmake-fetch": "^1.4.9",

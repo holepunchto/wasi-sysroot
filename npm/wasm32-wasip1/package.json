@@ -1,6 +1,6 @@
 {
   "name": "wasi-sysroot-wasm32-wasip1",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "The WASI sysroot for wasm32-wasip1",
   "exports": {
     ".": "./index.js",
